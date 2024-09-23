@@ -1,0 +1,23 @@
+{
+    "name": "roma/task2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Roma\\Task2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "romurs",
+            "email": "1romurs@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
